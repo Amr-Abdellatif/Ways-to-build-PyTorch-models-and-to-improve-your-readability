@@ -1,26 +1,3 @@
----
-jupyter:
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.10.4
-  nbformat: 4
-  nbformat_minor: 2
-  orig_nbformat: 4
----
-
-<div class="cell markdown">
-
 # Pytorch: Ways to build PyTorch models using \[Module, Sequential, ModuleList and ModuleDict\]
 
 ![Alt text](images/simple_neural_network_header.jpg)
