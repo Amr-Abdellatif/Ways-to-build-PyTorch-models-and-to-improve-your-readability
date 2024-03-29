@@ -1,4 +1,6 @@
-# Pytorch: Ways to build PyTorch models using \[Module, Sequential, ModuleList and ModuleDict\]
+# Pytorch: Ways to build PyTorch models using : \[Module, Sequential, ModuleList and ModuleDict\]
+
+### This repo will help you build intuition around different blocks to build models using different PyTorch tools
 
 ![Alt text](images/simple_neural_network_header.jpg)
 
@@ -276,7 +278,7 @@ print(model)
 
 <div class="cell markdown">
 
-# what if i needed to add more layer in the encoder ?
+# what if i needed to add more layer in the encoder ? should i hard code this ?
 
 """ self.encoder = nn.Sequential(
 conv_block(in_c,32,kernel_size=3,stride=1,padding=1),
@@ -290,7 +292,7 @@ conv_block(256,512,kernel_size=3,stride=1,padding=1), ) """
 </div>
 
 <div class="cell code" execution_count="27">
-
+### so in the net cell is a simple way to zip up items from a list together  so that we can use it layer in model building
 ``` python
 sizes = [3,64,128,256,512]
 for in_f , out_f in zip(sizes,sizes[1:]):
